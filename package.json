@@ -1,0 +1,21 @@
+{
+  "name": "wa-automation",
+  "version": "1.0.0",
+  "description": "WhatsApp automation using WhatsApp Web JS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "check-chrome": "node check-chrome.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode": "^1.5.3",
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
